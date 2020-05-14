@@ -21,6 +21,7 @@ import { inspect } from "util";
 const IDLE_PAGE_TEMPLATE = read(
     "../../client/browser/idle-page/index.html.mustache"
 );
+
 const connections: Dictionary<BrowserConnection> = {};
 // Test concurrency parameter taken from the shell. This is
 // required to split up the tests into multiple browsers
